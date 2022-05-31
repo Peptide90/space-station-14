@@ -30,3 +30,10 @@ reagent-desc-oil = Used by chefs to cook.
 
 reagent-name-capsaicin-oil = Capsaicin Oil
 reagent-desc-capsaicin-oil = Capsaicin Oil is the ingredient found in different types of hot peppers.
+
+reagent-name-wort = wort
+reagent-desc-wort = Used to brew beers.
+
+
+reagent-name-yeast = yeast
+reagent-desc-yeast = Used in brewing and baking.
