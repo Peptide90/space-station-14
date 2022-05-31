@@ -161,3 +161,31 @@
           type: Local
           messages: [ "capsaicin-effect-light-burn" ]
           probability: 0.2
+
+# Brewing
+
+- type: reagent
+  id: Wort
+  name: reagent-name-wort
+  group: Foods
+  desc: reagent-desc-wort
+  physicalDesc: reagent-physical-desc-coarse
+  color: tan
+  metabolisms:
+    Food:
+      effects:
+      - !type:SatiateHunger
+        factor: 1
+        
+- type: reagent
+  id: Yeast
+  name: reagent-name-yeast
+  group: Foods
+  desc: reagent-desc-yeast
+  physicalDesc: reagent-physical-desc-powdery
+  color: white
+  metabolisms:
+    Food:
+      effects:
+      - !type:SatiateHunger
+        factor: 1
