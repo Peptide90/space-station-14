@@ -1,3 +1,17 @@
+# Ingredients
+- type: reaction
+  id: Yeast
+  reactants:
+    Yeast:
+      amount: 1
+      catalyst: true
+    Nutriment:
+      amount: 1
+  minTemp: 288
+  maxTemp: 299
+  products:
+    Yeast: 1
+
 ## Beers
 # Top Fermented Drinks (15c 288k to 25c 299k)
 - type: reaction
