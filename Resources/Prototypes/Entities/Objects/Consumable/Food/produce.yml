@@ -72,6 +72,24 @@
       reagents:
       - ReagentId: MilkOat
         Quantity: 5
+        
+
+- type: entity
+  name: beer hops
+  description: Aromatic and grainy. Grind to make Wort.
+  id: BeerHops
+  parent: ProduceBase
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Hydroponics/wheat.rsi
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Wort
+          Quantity: 10
+  - type: Produce
+    seedId: beerhops
 
 - type: entity
   name: sugarcane
