@@ -1,0 +1,78 @@
+## Beers
+# Top Fermented Drinks (15c 288k to 25c 299k)
+- type: reaction
+  id: Ale
+  reactants:
+    Water:
+      amount: 7
+    Yeast:
+      amount: 1
+    Sugar:
+      amount: 1
+    Wort:
+      amount: 1
+  minTemp: 288
+  maxTemp: 299
+  products:
+    Ale: 10
+   
+- type: reaction
+  id: Stout
+  reactants:
+    Water:
+      amount: 7
+    Yeast:
+      amount: 1
+    Sugar:
+      amount: 1
+    Oats:
+      amount: 1
+  minTemp: 288
+  maxTemp: 299
+  products:
+    Stout: 10
+    
+# Bottom Fermented Drinks (0c 273k to 10c 284k
+- type: reaction
+  id: Lager
+  reactants:
+    Water:
+      amount: 7
+    Yeast:
+      amount: 1
+    Sugar:
+      amount: 1
+    Wort:
+      amount: 1
+  minTemp: 273
+  maxTemp: 284
+  products:
+   Lager: 10
+   
+# Variants
+- type: reaction
+  id: AleBanana
+  reactants:
+    Ale:
+      amount: 8
+    BananaJuice:
+      amount: 2
+  minTemp: 288
+  maxTemp: 299
+  products:
+    AleBanana: 10
+    
+# Spirits
+- type: reaction
+  id: SpiritBourbon
+  reactants:
+    Water:
+      amount: 6
+    CornOil:
+      amount: 1
+    Nutriment:
+      amount: 3
+  minTemp: 288
+  maxTemp: 299
+  products:
+    SpiritBourbon: 10
